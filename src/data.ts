@@ -41,19 +41,17 @@ export const skills = [
 
 export interface CourseworkGroup {
   group: string;
+  note: string;
   items: string[];
 }
 
 export const education = {
-  date: "Sep 2023 – Jun 2027 (Expected)",
-  degree: "B.S. Informatics & B.S. Applied Mathematics (Data Science)",
-  school: "University of Washington, Seattle",
-  gpa: "GPA 3.86 / 4.0",
-  summary:
-    "A double degree that trained me to approach problems at the intersection of human-centered design, data science, and engineering.",
+  gpa: "3.86 / 4.0",
+  gradYear: "2027",
   coursework: [
     {
       group: "Design & Systems",
+      note: "Human-centered design and the systems that bring it to life.",
       items: [
         "Human-Computer Interaction",
         "Web Development",
@@ -63,6 +61,7 @@ export const education = {
     },
     {
       group: "Data & Modeling",
+      note: "Statistical and computational foundations for working with data.",
       items: [
         "Machine Learning",
         "Statistical Modeling",
